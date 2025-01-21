@@ -551,13 +551,15 @@ welcome
 
 @media (max-width: 991px) {
   .welcome-area {
-    height: 80vh;
+    height: 70vh;
     background-position: right center;
+    display: flex;
+    align-items: flex-end;
   }
   .welcome-area .header-text {
-    top: 65% !important;
-    transform: perspective(1px) translateY(-60%) !important;
     text-align: center;
+    margin-top: 20%;
+    display: block;
   }
   .welcome-area .header-text h1 {
     text-align: center;
@@ -671,7 +673,7 @@ features
 
 .features-small-item .features-title {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 20px;
   color: #1e1e1e;
   letter-spacing: 0.7px;
   margin-bottom: 15px;
@@ -681,7 +683,7 @@ features
 
 .features-small-item p {
   font-weight: 400;
-  font-size: 13px;
+  font-size: 15px;
   color: #424242;
   letter-spacing: 0.5px;
   line-height: 25px;
