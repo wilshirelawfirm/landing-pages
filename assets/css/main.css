@@ -291,7 +291,7 @@ body {
 
 a.main-button-slider {
   font-size: 15px;
-  border-radius: 20px;
+  border-radius: 30px;
   padding: 14px 20px;
   background-color: rgb(242, 103, 36);
   text-transform: uppercase;
@@ -305,7 +305,7 @@ a.main-button-slider {
 
 a.main-button {
   font-size: 15px;
-  border-radius: 20px;
+  border-radius: 30px;
   padding: 14px 20px;
   background-color: rgb(15, 28, 65);
   text-transform: uppercase;
@@ -321,8 +321,8 @@ button.main-button {
   outline: none;
   border: none;
   cursor: pointer;
-  font-size: 13px;
-  border-radius: 20px;
+  font-size: 15px;
+  border-radius: 30px;
   padding: 14px 20px;
   background-color: rgb(15, 28, 65);
   text-transform: uppercase;
