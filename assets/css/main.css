@@ -289,7 +289,7 @@ body {
   }
 }
 
-a.main-button-slider {
+a.main-button-slider, button.main-button-slider {
   font-size: 15px;
   border-radius: 30px;
   padding: 14px 20px;
@@ -297,6 +297,7 @@ a.main-button-slider {
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
+  border: none;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -467,7 +468,6 @@ header
   .header-area .main-nav .nav {
     float: none;
     margin-left: 0px;
-    width: 60%;
   }
   .header-area .main-nav .nav li {
     background: #fff;
@@ -513,7 +513,6 @@ welcome
   background-size: cover; 
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(../images/car-accident.webp);
 }
-
 
 .welcome-area .header-text {
   position: absolute;
@@ -1237,7 +1236,7 @@ contact
   outline: none;
   padding-left: 20px;
   padding-right: 20px;
-  border-radius: 25px;
+  border-radius: 8px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
