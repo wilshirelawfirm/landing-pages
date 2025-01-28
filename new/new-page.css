@@ -51,7 +51,7 @@
 
 @media (max-width: 991px) {
     .welcome-area {
-        height: 70vh;
+        height: 70dvh;
         background-attachment: unset;
     }
 
@@ -91,6 +91,13 @@
 .badges {
     margin-top: -120px;
     padding-bottom: 0;
+}
+
+@media (max-width: 991px) {
+    .badges {
+        margin-top: -100px;
+        padding-bottom: 0;
+    }
 }
 
 .marquee {
@@ -139,6 +146,13 @@
     animation-delay: -3s;
 }
 
+.marquee img {
+    max-width: var(--size);
+    max-height: var(--size);
+    height: auto;
+    object-fit: contain;
+}
+
 @keyframes scroll-x {
     from {
         transform: translateX(var(--scroll-start));
@@ -157,31 +171,6 @@
     to {
         transform: translateY(var(--scroll-end));
     }
-}
-
-/* Element styles */
-.marquee svg {
-    display: grid;
-    place-items: center;
-    width: var(--size);
-    height: var(--size);
-    fill: var(--color-text);
-    background: var(--color-bg-accent);
-    aspect-ratio: 16/9;
-    padding: calc(var(--size) / 10);
-    border-radius: 0.5rem;
-}
-
-.marquee img {
-    max-width: var(--size);
-    max-height: var(--size);
-    height: auto;
-}
-
-.marquee--vertical svg {
-    aspect-ratio: 1;
-    width: calc(var(--size) / 1.5);
-    padding: calc(var(--size) / 6);
 }
 
 /* Parent wrapper */
