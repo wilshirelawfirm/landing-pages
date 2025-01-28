@@ -51,7 +51,7 @@
 
 @media (max-width: 991px) {
     .welcome-area {
-        height: 70dvh;
+        height: 80h;
         background-attachment: unset;
     }
 
@@ -95,7 +95,7 @@
 
 @media (max-width: 991px) {
     .badges {
-        margin-top: -100px;
+        margin-top: -90px;
         padding-bottom: 0;
     }
 }
