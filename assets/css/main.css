@@ -237,6 +237,10 @@ body {
   padding-top: 70px !important;
 }
 
+.padding-bottom-70 {
+  padding-bottom: 70px !important;
+}
+
 .padding-top-20 {
   padding-top: 20px !important;
 }
@@ -505,7 +509,7 @@ welcome
   background-position: center center;
   background-size: cover; 
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(../images/banner-bg.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(../images/banner-bg.webp);
 }
 
 .welcome-area.car-accident {
