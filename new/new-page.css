@@ -209,6 +209,7 @@ div.step {
     width: 50px;
     border-radius: 50%;
     margin-right: 8px;
+    flex-shrink: 0;
 }
 
 div.step span {
@@ -368,6 +369,7 @@ div.step span {
 .accordion .accordion-title {
     max-width: 88%;
     font-weight: 700;
+    font-size: 19px;
 }
 
 .accordion .accordion-content {
@@ -378,10 +380,16 @@ div.step span {
 
 .accordion .accordion-content p {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 17px;
     color: #424242;
     letter-spacing: 1px;
     padding: 20px 0;
+}
+
+@media (max-width: 991px) {
+    .accordion .accordion-content p  {
+        font-size: 16px;
+    }
 }
 
 @keyframes scale-up {
@@ -391,5 +399,15 @@ div.step span {
 
     to {
         opacity: 1;
+    }
+}
+
+.left-text, .center-text p, .mini .mini-content .info p {
+    font-size: 17px;
+}
+
+@media (max-width: 991px) {
+    .left-text, .center-text p, .mini .mini-content .info p {
+        font-size: 16px;
     }
 }
