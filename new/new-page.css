@@ -82,7 +82,7 @@ p>a {
     --color-text: navy;
     --color-bg: papayawhip;
     --color-bg-accent: #ecdcc0;
-    --size: clamp(10rem, 1rem + 40vmin, 10rem);
+    --size: clamp(9rem, 1rem + 10vmin, 9rem);
     --gap: calc(var(--size) / 5);
     --duration: 30s;
     --scroll-start: 0;
