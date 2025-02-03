@@ -10,14 +10,15 @@ p>a {
 }
 
 .banner {
-    background-color: #0f1c41;
+    /* background-color: #0f1c41; */
+    background-color: rgb(242, 103, 36);
 }
 
 .banner span {
     text-align: center;
     display: block;
     color: #FFF;
-    font-size: 19px;
+    font-size: 21px;
 }
 
 @media (max-width: 991px) {
