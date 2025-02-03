@@ -10,7 +10,6 @@ p>a {
 }
 
 .banner {
-    /* background-color: #0f1c41; */
     background-color: rgb(242, 103, 36);
 }
 
@@ -18,7 +17,8 @@ p>a {
     text-align: center;
     display: block;
     color: #FFF;
-    font-size: 21px;
+    font-size: 17px;
+    font-weight: bold;
 }
 
 @media (max-width: 991px) {
