@@ -1,9 +1,7 @@
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-    select:focus,
-    textarea:focus,
-    input:focus {
-        font-size: 16px !important;
-    }
+select:focus,
+textarea:focus,
+input:focus {
+    font-size: 16px !important;
 }
 
 p>a {
@@ -421,7 +419,6 @@ div.step span {
 }
 
 @media (max-width: 991px) {
-
     .left-text,
     .center-text p,
     .mini .mini-content .info p,
@@ -435,4 +432,10 @@ div.step span {
     font-size: 12px;
     margin-bottom: 20px;
     text-align: left;
+}
+
+@media (max-width: 991px) {
+    .disclaimer {
+        font-size: 9px;
+    }
 }
