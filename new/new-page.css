@@ -32,6 +32,7 @@ p>a {
 }
 
 .welcome-area {
+    min-height: 600px;
     height: 70vh;
     background-attachment: fixed;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(../assets/images/car-accident.webp);
