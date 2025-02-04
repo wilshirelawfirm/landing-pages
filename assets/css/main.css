@@ -1024,6 +1024,22 @@ contact
   line-height: 26px;
 }
 
+.contact-text ul {
+  list-style: none;
+}
+
+.contact-text ul li{
+  display: block;
+  position: relative;
+}
+
+.contact-text ul li:before {
+  content: '✓';
+  position: absolute;
+  left: -16px;
+  color: rgb(242, 103, 36);
+}
+
 .contact-text li span {
   font-size: 14px;
   display: block;
