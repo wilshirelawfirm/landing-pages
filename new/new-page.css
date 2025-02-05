@@ -387,6 +387,7 @@ div.step span {
 
 .accordion button[aria-expanded=true] {
     color: #0f1c41;
+    padding-left: 8px;
 }
 
 .accordion button[aria-expanded=true] .icon {
@@ -396,6 +397,7 @@ div.step span {
 
 .accordion button[aria-expanded=true]+.accordion-content {
     display: block;
+    padding: 0 8px
 }
 
 .accordion .accordion-title {
@@ -425,12 +427,19 @@ div.step span {
 }
 
 @keyframes scale-up {
-    from {
+    0% {
         opacity: 0;
+        height: 0;
     }
 
-    to {
+    50% {
+        opacity: 0;
+        height: 160px;
+    }
+
+    100% {
         opacity: 1;
+        height: max-content;
     }
 }
 
@@ -442,6 +451,7 @@ div.step span {
 }
 
 @media (max-width: 991px) {
+
     .left-text,
     .center-text p,
     .mini .mini-content .info p,

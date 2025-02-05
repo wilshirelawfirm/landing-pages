@@ -763,8 +763,6 @@ parallax & home seperator
 .mini .mini-content .info h2 {
   color: #fff;
   font-weight: 500;
-  font-size: 28px;
-  letter-spacing: 0.25px;
   margin-bottom: 16px;
 }
 
@@ -1036,7 +1034,7 @@ contact
 .contact-text ul li:before {
   content: '✓';
   position: absolute;
-  left: -16px;
+  left: -17px;
   color: rgb(242, 103, 36);
 }
 
