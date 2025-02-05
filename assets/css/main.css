@@ -593,8 +593,8 @@ welcome
   }
   .welcome-area .header-text h1 {
     font-weight: 600;
-    font-size: 28px !important;
-    line-height: 30px !important;
+    font-size: 33px !important;
+    line-height: 1em !important;
     margin-bottom: 30px !important;
   }
   .welcome-area .header-text h1 span {
